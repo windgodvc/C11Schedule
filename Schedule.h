@@ -70,6 +70,8 @@ public:
     
     void remove(std::string name);
     
+private:
+    
     void Run(ScheduleData *data);
     
 private:

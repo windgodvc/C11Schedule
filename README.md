@@ -3,6 +3,7 @@ C11 Schedule Timer.
 使用线程实现的跨平台定时器.
 
 
+```c++
 //Codeing Demo
 Schedule *timer = new Schedule;
 int sum = 0;
@@ -26,3 +27,4 @@ start("mytest1", SCHEDULE_ARGS([=](int command)mutable{
     }
     
 },1018), 1100);
+```
